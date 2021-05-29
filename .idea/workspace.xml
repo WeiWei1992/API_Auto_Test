@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="695ee0c9-484b-4e6d-8287-f96b56fb0c16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/send_eamil.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Android_yuyin_autotool/public/operate_excel.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Android_yuyin_autotool/public/send_email.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Chip_yuliao/.idea/Chip_yuliao.iml" afterDir="false" />
@@ -32,16 +31,6 @@
       <change afterPath="$PROJECT_DIR$/../yuliao_trans/.idea/yuliao_trans.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../yuliao_trans/trans_yuliao.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api_Run.py" beforeDir="false" afterPath="$PROJECT_DIR$/Api_Run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/initialize_family.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/initialize_family.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/run_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/run_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/case.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/case/case.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/operate_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/operate_excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/public.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/public.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/headers" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runlog.log" beforeDir="false" afterPath="$PROJECT_DIR$/runlog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Android_yuyin_autotool/base/base_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Android_yuyin_autotool/base/base_driver.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Android_yuyin_autotool/my_main/handle_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Android_yuyin_autotool/my_main/handle_main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Android_yuyin_autotool/my_main/ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Android_yuyin_autotool/my_main/ui.py" afterDir="false" />
@@ -171,7 +160,7 @@
           <entry key="project.closed" value="35" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="12" />
+          <entry key="project.open.time.10" value="13" />
           <entry key="project.open.time.11" value="13" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.14" value="2" />
@@ -182,7 +171,7 @@
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="39" />
+          <entry key="project.opened" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -228,17 +217,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/run_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5348">
-              <caret line="275" column="64" selection-start-line="275" selection-start-column="64" selection-end-line="275" selection-end-column="64" />
+            <state relative-caret-position="-924">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
               <folding>
                 <element signature="e#1#10#0" expanded="true" />
                 <element signature="e#6277#9624#0" />
-                <marker date="1621501266433" expanded="true" signature="827:832" ph="..." />
-                <marker date="1621501266433" expanded="true" signature="4615:20715" ph="..." />
-                <marker date="1621501266433" expanded="false" signature="4931:4940" ph="..." />
-                <marker date="1621501266433" expanded="true" signature="4931:5906" ph="..." />
-                <marker date="1621501266433" expanded="true" signature="17404:17413" ph="..." />
-                <marker date="1621501266433" expanded="true" signature="18153:18162" ph="..." />
+                <marker date="1622273151315" expanded="true" signature="827:832" ph="..." />
+                <marker date="1622273151315" expanded="true" signature="4615:20715" ph="..." />
+                <marker date="1622273151315" expanded="false" signature="4931:4940" ph="..." />
+                <marker date="1622273151315" expanded="true" signature="4931:5906" ph="..." />
+                <marker date="1622273151315" expanded="true" signature="17404:17413" ph="..." />
+                <marker date="1622273151315" expanded="true" signature="18153:18162" ph="..." />
               </folding>
             </state>
           </provider>
@@ -247,11 +236,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/initialize_family.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1025">
-              <caret line="313" column="36" lean-forward="true" selection-start-line="313" selection-start-column="36" selection-end-line="313" selection-end-column="36" />
+            <state relative-caret-position="106">
+              <caret line="313" column="36" selection-start-line="313" selection-start-column="36" selection-end-line="313" selection-end-column="36" />
               <folding>
-                <marker date="1622191080628" expanded="true" signature="6464:7664" ph="..." />
-                <marker date="1622191080628" expanded="true" signature="9841:9846" ph="..." />
+                <marker date="1622273151315" expanded="true" signature="6464:7664" ph="..." />
+                <marker date="1622273151315" expanded="true" signature="9841:9846" ph="..." />
               </folding>
             </state>
           </provider>
@@ -260,11 +249,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Api_Run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1204">
-              <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+            <state relative-caret-position="507">
+              <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1622165222533" expanded="true" signature="646:1419" ph="..." />
+                <marker date="1622273151312" expanded="true" signature="646:1419" ph="..." />
               </folding>
             </state>
           </provider>
@@ -277,12 +266,12 @@
               <caret line="145" column="32" selection-start-line="140" selection-start-column="12" selection-end-line="145" selection-end-column="32" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1622168164616" expanded="true" signature="180:185" ph="..." />
-                <marker date="1622168164616" expanded="true" signature="180:1343" ph="..." />
-                <marker date="1622168164616" expanded="true" signature="7940:7945" ph="..." />
-                <marker date="1622168164616" expanded="true" signature="9541:9546" ph="..." />
-                <marker date="1622168164616" expanded="true" signature="9541:9730" ph="..." />
-                <marker date="1622168164616" expanded="true" signature="9728:9729" ph="..." />
+                <marker date="1622273151317" expanded="true" signature="180:185" ph="..." />
+                <marker date="1622273151317" expanded="true" signature="180:1343" ph="..." />
+                <marker date="1622273151317" expanded="true" signature="7940:7945" ph="..." />
+                <marker date="1622273151317" expanded="true" signature="9541:9546" ph="..." />
+                <marker date="1622273151317" expanded="true" signature="9541:9730" ph="..." />
+                <marker date="1622273151317" expanded="true" signature="9728:9729" ph="..." />
               </folding>
             </state>
           </provider>
@@ -333,7 +322,7 @@
               <caret line="184" column="32" selection-start-line="184" selection-start-column="32" selection-end-line="184" selection-end-column="32" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1621501254506" expanded="true" signature="4575:4580" ph="..." />
+                <marker date="1622273151317" expanded="true" signature="4575:4580" ph="..." />
               </folding>
             </state>
           </provider>
@@ -618,14 +607,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09325606" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.4408252" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.59934855" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.59934855" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33767644" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -715,46 +705,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/run_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5348">
-          <caret line="275" column="64" selection-start-line="275" selection-start-column="64" selection-end-line="275" selection-end-column="64" />
-          <folding>
-            <element signature="e#1#10#0" expanded="true" />
-            <element signature="e#6277#9624#0" />
-            <marker date="1621501266433" expanded="true" signature="827:832" ph="..." />
-            <marker date="1621501266433" expanded="true" signature="4615:20715" ph="..." />
-            <marker date="1621501266433" expanded="false" signature="4931:4940" ph="..." />
-            <marker date="1621501266433" expanded="true" signature="4931:5906" ph="..." />
-            <marker date="1621501266433" expanded="true" signature="17404:17413" ph="..." />
-            <marker date="1621501266433" expanded="true" signature="18153:18162" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Api_Run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1204">
-          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1622165222533" expanded="true" signature="646:1419" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/public.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3948">
           <caret line="145" column="32" selection-start-line="140" selection-start-column="12" selection-end-line="145" selection-end-column="32" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1622168164616" expanded="true" signature="180:185" ph="..." />
-            <marker date="1622168164616" expanded="true" signature="180:1343" ph="..." />
-            <marker date="1622168164616" expanded="true" signature="7940:7945" ph="..." />
-            <marker date="1622168164616" expanded="true" signature="9541:9546" ph="..." />
-            <marker date="1622168164616" expanded="true" signature="9541:9730" ph="..." />
-            <marker date="1622168164616" expanded="true" signature="9728:9729" ph="..." />
+            <marker date="1622273151317" expanded="true" signature="180:185" ph="..." />
+            <marker date="1622273151317" expanded="true" signature="180:1343" ph="..." />
+            <marker date="1622273151317" expanded="true" signature="7940:7945" ph="..." />
+            <marker date="1622273151317" expanded="true" signature="9541:9546" ph="..." />
+            <marker date="1622273151317" expanded="true" signature="9541:9730" ph="..." />
+            <marker date="1622273151317" expanded="true" signature="9728:9729" ph="..." />
           </folding>
         </state>
       </provider>
@@ -797,7 +759,7 @@
           <caret line="184" column="32" selection-start-line="184" selection-start-column="32" selection-end-line="184" selection-end-column="32" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1621501254506" expanded="true" signature="4575:4580" ph="..." />
+            <marker date="1622273151317" expanded="true" signature="4575:4580" ph="..." />
           </folding>
         </state>
       </provider>
@@ -816,13 +778,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Api_Run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1622273151312" expanded="true" signature="646:1419" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/run_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-924">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <element signature="e#1#10#0" expanded="true" />
+            <element signature="e#6277#9624#0" />
+            <marker date="1622273151315" expanded="true" signature="827:832" ph="..." />
+            <marker date="1622273151315" expanded="true" signature="4615:20715" ph="..." />
+            <marker date="1622273151315" expanded="false" signature="4931:4940" ph="..." />
+            <marker date="1622273151315" expanded="true" signature="4931:5906" ph="..." />
+            <marker date="1622273151315" expanded="true" signature="17404:17413" ph="..." />
+            <marker date="1622273151315" expanded="true" signature="18153:18162" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/initialize_family.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="313" column="36" lean-forward="true" selection-start-line="313" selection-start-column="36" selection-end-line="313" selection-end-column="36" />
+        <state relative-caret-position="106">
+          <caret line="313" column="36" selection-start-line="313" selection-start-column="36" selection-end-line="313" selection-end-column="36" />
           <folding>
-            <marker date="1622191080628" expanded="true" signature="6464:7664" ph="..." />
-            <marker date="1622191080628" expanded="true" signature="9841:9846" ph="..." />
+            <marker date="1622273151315" expanded="true" signature="6464:7664" ph="..." />
+            <marker date="1622273151315" expanded="true" signature="9841:9846" ph="..." />
           </folding>
         </state>
       </provider>
