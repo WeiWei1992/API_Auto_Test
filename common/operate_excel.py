@@ -242,7 +242,7 @@ class Operate_Excel():
                 break
             Cases.append(tmp_case)
         # logging.info("获取的用例： ")
-        logging.info(Cases)
+        #logging.info(Cases)
         return Cases
     def save_result(self,resultfile,row,data):
         #content是要保持的数据list

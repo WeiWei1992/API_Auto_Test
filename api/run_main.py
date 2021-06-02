@@ -175,9 +175,18 @@ class Run_Url():
 
         openate_ini.modify('headers','timestamp',str(time_stamp))
 
-
-        allurl="http://"+openate_ini.read_ini('url','domain')+"/"+self.url
+        if "domain2" in self.url:
+            #因为不同接口可能域名不一致，在这里需要设置成可配置的，默认域名是uhome.haier.net
+            #dmnain2 是zj.haier.net
+            logging.info("域名是domain2，不是默认的uhome.haier.net,需要特殊处理,先去掉domain2")
+            self.url=self.url.replace("domain2","")
+            logging.info("第一步处理后的url是： "+str(self.url))
+            allurl="http://"+openate_ini.read_ini('url','domain2')+self.url
+            logging.info("处理domain2后的url是： "+str(allurl))
+        else:
+            allurl="http://"+openate_ini.read_ini('url','domain')+"/"+self.url
         #print("allurl:  ",allurl)
+
         logging.info("请求url: "+allurl)
         if "登录" == self.step:
 
@@ -282,6 +291,11 @@ class Run_Url():
                 return '',True,''
             else:
                 return real_txt, flag, fail_reason
+        elif "等待" == self.step:
+            wait_time=int(self.body)
+            logging.info("等待(s) "+str(wait_time))
+            time.sleep(wait_time)
+            return '', True, ''
 
 
         elif self.method==None or self.method=='':
@@ -453,6 +467,7 @@ class Run_Url():
             # res=requests.get(url=allurl,headers=headers,data=self.body)
             # print(res.text)
 
+            #pass
         else:
             print("略过-------------")
             logging.info("在这里进行保存，先留个坑")

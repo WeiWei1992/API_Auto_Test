@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="695ee0c9-484b-4e6d-8287-f96b56fb0c16" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/timing_run.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Android_yuyin_autotool/public/operate_excel.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Android_yuyin_autotool/public/send_email.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Chip_yuliao/.idea/Chip_yuliao.iml" afterDir="false" />
@@ -31,6 +32,15 @@
       <change afterPath="$PROJECT_DIR$/../yuliao_trans/.idea/yuliao_trans.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../yuliao_trans/trans_yuliao.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api_Run.py" beforeDir="false" afterPath="$PROJECT_DIR$/Api_Run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/run_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/run_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/case.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/case/case.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/operate_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/operate_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/send_eamil.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/send_eamil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/headers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/result_2021_05_29_15_38_37.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runlog.log" beforeDir="false" afterPath="$PROJECT_DIR$/runlog.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Android_yuyin_autotool/base/base_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Android_yuyin_autotool/base/base_driver.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Android_yuyin_autotool/my_main/handle_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Android_yuyin_autotool/my_main/handle_main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Android_yuyin_autotool/my_main/ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Android_yuyin_autotool/my_main/ui.py" afterDir="false" />
@@ -157,11 +167,11 @@
     <session id="-41255180">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="35" />
+          <entry key="project.closed" value="38" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="13" />
-          <entry key="project.open.time.11" value="13" />
+          <entry key="project.open.time.11" value="16" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.15" value="1" />
@@ -171,7 +181,7 @@
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="40" />
+          <entry key="project.opened" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -181,7 +191,7 @@
           <entry key="headers" value="1" />
           <entry key="ini" value="3" />
           <entry key="log" value="4" />
-          <entry key="py" value="32" />
+          <entry key="py" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -190,7 +200,7 @@
           <entry key="Log" value="4" />
           <entry key="Logstash" value="2" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="32" />
+          <entry key="Python" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -198,16 +208,16 @@
           <entry key="body" value="2" />
           <entry key="conf" value="3" />
           <entry key="headers" value="19" />
-          <entry key="ini" value="422" />
-          <entry key="py" value="23896" />
+          <entry key="ini" value="461" />
+          <entry key="py" value="24670" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Ini" value="422" />
+          <entry key="Ini" value="461" />
           <entry key="Logstash" value="3" />
           <entry key="PLAIN_TEXT" value="21" />
-          <entry key="Python" value="23896" />
+          <entry key="Python" value="24670" />
         </counts>
       </usages-collector>
     </session>
@@ -217,43 +227,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/run_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-924">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="173">
+              <caret line="181" column="46" selection-start-line="181" selection-start-column="39" selection-end-line="181" selection-end-column="46" />
               <folding>
                 <element signature="e#1#10#0" expanded="true" />
-                <element signature="e#6277#9624#0" />
-                <marker date="1622273151315" expanded="true" signature="827:832" ph="..." />
-                <marker date="1622273151315" expanded="true" signature="4615:20715" ph="..." />
-                <marker date="1622273151315" expanded="false" signature="4931:4940" ph="..." />
-                <marker date="1622273151315" expanded="true" signature="4931:5906" ph="..." />
-                <marker date="1622273151315" expanded="true" signature="17404:17413" ph="..." />
-                <marker date="1622273151315" expanded="true" signature="18153:18162" ph="..." />
+                <marker date="1622599466158" expanded="true" signature="827:832" ph="..." />
+                <marker date="1622599466158" expanded="true" signature="4615:21386" ph="..." />
+                <marker date="1622599466158" expanded="false" signature="4931:4940" ph="..." />
+                <marker date="1622599466158" expanded="true" signature="4931:5906" ph="..." />
+                <marker date="1622599466158" expanded="true" signature="18075:18084" ph="..." />
+                <marker date="1622599466158" expanded="true" signature="18824:18833" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api/initialize_family.py">
+        <entry file="file://$PROJECT_DIR$/Api_Run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="313" column="36" selection-start-line="313" selection-start-column="36" selection-end-line="313" selection-end-column="36" />
+            <state relative-caret-position="85">
+              <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
               <folding>
-                <marker date="1622273151315" expanded="true" signature="6464:7664" ph="..." />
-                <marker date="1622273151315" expanded="true" signature="9841:9846" ph="..." />
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1622601710850" expanded="true" signature="646:1628" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Api_Run.py">
+        <entry file="file://$PROJECT_DIR$/timing_run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+            <state relative-caret-position="532">
+              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <marker date="1622273151312" expanded="true" signature="646:1419" ph="..." />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -306,8 +314,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/send_eamil.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="6356">
+              <caret line="239" column="28" selection-start-line="239" selection-start-column="28" selection-end-line="239" selection-end-column="28" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -318,11 +326,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/operate_excel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4872">
-              <caret line="184" column="32" selection-start-line="184" selection-start-column="32" selection-end-line="184" selection-end-column="32" />
+            <state relative-caret-position="6552">
+              <caret line="244" column="9" selection-start-line="244" selection-start-column="9" selection-end-line="244" selection-end-column="9" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1622273151317" expanded="true" signature="4575:4580" ph="..." />
+                <marker date="1622516309934" expanded="true" signature="4575:4580" ph="..." />
               </folding>
             </state>
           </provider>
@@ -331,8 +339,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/config.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="728">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="-6">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -401,21 +409,22 @@
         <option value="$PROJECT_DIR$/common/handle_file.py" />
         <option value="$PROJECT_DIR$/common/sign.py" />
         <option value="$PROJECT_DIR$/common/operate_ini.py" />
-        <option value="$PROJECT_DIR$/common/send_eamil.py" />
         <option value="$PROJECT_DIR$/App_xingneng/memo.py" />
-        <option value="$PROJECT_DIR$/common/operate_excel.py" />
-        <option value="$PROJECT_DIR$/api/run_main.py" />
-        <option value="$PROJECT_DIR$/Api_Run.py" />
         <option value="$PROJECT_DIR$/common/public.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/config/config.ini" />
         <option value="$PROJECT_DIR$/api/initialize_family.py" />
+        <option value="$PROJECT_DIR$/timing_run.py" />
+        <option value="$PROJECT_DIR$/common/operate_excel.py" />
+        <option value="$PROJECT_DIR$/common/send_eamil.py" />
+        <option value="$PROJECT_DIR$/api/run_main.py" />
+        <option value="$PROJECT_DIR$/config/config.ini" />
+        <option value="$PROJECT_DIR$/Api_Run.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="14" />
+    <option name="y" value="16" />
     <option name="width" value="1561" />
     <option name="height" value="1001" />
   </component>
@@ -436,11 +445,6 @@
               <item name="API_Auto_Test" type="b2602c69:ProjectViewProjectNode" />
               <item name="API_Auto_Test" type="462c0819:PsiDirectoryNode" />
               <item name="case" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="API_Auto_Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="API_Auto_Test" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -484,27 +488,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Api_Run.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="initialize_family" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="API_Auto_Test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api/initialize_family.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -576,20 +559,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="timing_run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="API_Auto_Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/timing_run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Api_Run" />
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.initialize_family" />
       <item itemvalue="Python.send_eamil" />
       <item itemvalue="Python.memo" />
+      <item itemvalue="Python.timing_run" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Api_Run" />
+        <item itemvalue="Python.timing_run" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.memo" />
         <item itemvalue="Python.send_eamil" />
-        <item itemvalue="Python.initialize_family" />
       </list>
     </recent_temporary>
   </component>
@@ -607,7 +611,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09325606" />
@@ -615,7 +619,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.4408252" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.59934855" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6764386" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33767644" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -705,6 +709,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api/initialize_family.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8680">
+          <caret line="313" column="36" selection-start-line="313" selection-start-column="36" selection-end-line="313" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timing_run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/common/public.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3948">
@@ -745,8 +766,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/send_eamil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="6356">
+          <caret line="239" column="28" selection-start-line="239" selection-start-column="28" selection-end-line="239" selection-end-column="28" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
@@ -755,19 +776,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/operate_excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4872">
-          <caret line="184" column="32" selection-start-line="184" selection-start-column="32" selection-end-line="184" selection-end-column="32" />
+        <state relative-caret-position="6552">
+          <caret line="244" column="9" selection-start-line="244" selection-start-column="9" selection-end-line="244" selection-end-column="9" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1622273151317" expanded="true" signature="4575:4580" ph="..." />
+            <marker date="1622516309934" expanded="true" signature="4575:4580" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
@@ -778,41 +792,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Api_Run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1622273151312" expanded="true" signature="646:1419" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/run_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-924">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="173">
+          <caret line="181" column="46" selection-start-line="181" selection-start-column="39" selection-end-line="181" selection-end-column="46" />
           <folding>
             <element signature="e#1#10#0" expanded="true" />
-            <element signature="e#6277#9624#0" />
-            <marker date="1622273151315" expanded="true" signature="827:832" ph="..." />
-            <marker date="1622273151315" expanded="true" signature="4615:20715" ph="..." />
-            <marker date="1622273151315" expanded="false" signature="4931:4940" ph="..." />
-            <marker date="1622273151315" expanded="true" signature="4931:5906" ph="..." />
-            <marker date="1622273151315" expanded="true" signature="17404:17413" ph="..." />
-            <marker date="1622273151315" expanded="true" signature="18153:18162" ph="..." />
+            <marker date="1622599466158" expanded="true" signature="827:832" ph="..." />
+            <marker date="1622599466158" expanded="true" signature="4615:21386" ph="..." />
+            <marker date="1622599466158" expanded="false" signature="4931:4940" ph="..." />
+            <marker date="1622599466158" expanded="true" signature="4931:5906" ph="..." />
+            <marker date="1622599466158" expanded="true" signature="18075:18084" ph="..." />
+            <marker date="1622599466158" expanded="true" signature="18824:18833" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/initialize_family.py">
+    <entry file="file://$PROJECT_DIR$/config/config.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="313" column="36" selection-start-line="313" selection-start-column="36" selection-end-line="313" selection-end-column="36" />
+        <state relative-caret-position="-6">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Api_Run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
           <folding>
-            <marker date="1622273151315" expanded="true" signature="6464:7664" ph="..." />
-            <marker date="1622273151315" expanded="true" signature="9841:9846" ph="..." />
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1622601710850" expanded="true" signature="646:1628" ph="..." />
           </folding>
         </state>
       </provider>

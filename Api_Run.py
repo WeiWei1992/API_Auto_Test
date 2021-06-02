@@ -28,13 +28,14 @@ def auto_run():
     result_file=operate_excel.creat_excel()
     logging.info("结果保存路径： "+str(result_file))
     Cases=operate_excel.handle_casedata()
-    logging.info("读取到的用例是： "+str(Cases))
+    #logging.info("读取到的用例是： "+str(Cases))
 
     #result_file=operate_excel.creat_excel()
 
     i=3
+
     for case in Cases:
-        logging.info("-------用例"+str(i)+"-------------")
+        logging.info("-------用例"+str(i-2)+"-------------")
         if case['isrun']=='N':
 
             case_values=[]
@@ -47,11 +48,15 @@ def auto_run():
             run_main(case,result_file,i)
             time.sleep(1)
         i=i+1
-    msg_to = ['1508691067@qq.com']
-    #my_send_email(msg_to, result_file)
+    #332315237@qq.com 张艳邮箱
+    #msg_to = ['weiwei.uh@haier.com','zhangyan.xian@haier.com','zhangxiangrong2@haier.com','zhanluping@haier.com','caoke@haier.com','1508691067@qq.com']
+    # msg_to = ['weiwei.uh@haier.com','1508691067@qq.com']
+    # my_send_email(msg_to, result_file)
 
 
 if __name__=="__main__":
+    #后台运行方式
+    #nohup python3 Api_Run.py > nohup.log 2>&1 &
     auto_run()
     # OpExcel=Operate_Excel(casefile)
     # OpExcel.creat_excel()

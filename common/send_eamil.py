@@ -222,6 +222,7 @@ def my_send_email(msg_to,file_path):
 
     # 放入发件人,这是展示在邮件里面的，和时间的发件人没有关系
     msg['From'] = msg_from
+
     try:
         # 通过ssl方式发送，服务器地址，端口
         s = smtplib.SMTP_SSL("smtp.qq.com", 465)
@@ -235,8 +236,11 @@ def my_send_email(msg_to,file_path):
         logging.error("发送邮件失败")
         logging.error(e)
     finally:
-        logging.info("结束发送邮件")
+        logging.info(str(msg_to)+"已发送")
+        logging.info("邮件发送结束")
         s.quit()
+
+
 
 
 if __name__=="__main__":
